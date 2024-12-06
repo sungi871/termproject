@@ -47,4 +47,16 @@ Here is a demonstration of the object detection results:
 
 ![Result Image](resources/result.png)
 
+## Resources
+Here are the resources and references used to create this project:
+
+- **OpenCV Documentation**: [https://docs.opencv.org/](https://docs.opencv.org/)
+- **OpenCV Tutorials**: [https://docs.opencv.org/master/d9/df8/tutorial_root.html](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
+- **Python Official Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)
+- **HSV Color Range Guide**: [https://alloyui.com/color-picker/](https://alloyui.com/color-picker/)
+
+
+
+
+
 
