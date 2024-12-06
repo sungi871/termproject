@@ -1,7 +1,7 @@
 # termproject
 ## 조원
 Group74
- - SEO SIYEON (202335235)
+ - SEO SIYEON (202335235) : Project: Object Color Classifier with OpenCV (color_detection.py, main.py)
  - Moon JongHan (2023*****)
  - min sungi (202336083)
  - Lee hyunsoo (2023*****)
