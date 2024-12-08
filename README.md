@@ -115,7 +115,7 @@ The project aims to enhance home security by providing a convenient, keyless ent
 
 2. Run the main script to detect and authenticate users:  
     ```bash
-    python door_lock_main.py
+    doorlock202336120.py
     ```  
 
 3. Upload the Arduino code to control the door lock:  
