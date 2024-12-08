@@ -93,15 +93,13 @@ The project aims to enhance home security by providing a convenient, keyless ent
 ## **Requirements** (tested versions):  
 1. **Software**:  
     - Python (3.7.3)  
-    - opencv-python (4.1.0)  
-    - numpy (1.61.4)  
-    - imutils (0.5.2)  
+    - opencv-python (4.1.0) 
     - Arduino IDE  
 
 2. **Hardware**:  
-    - Arduino Uno/Mega  
-    - Webcam or Raspberry Pi Camera  
-    - Servo Motor or Solenoid  
+    - Arduino
+    - Camera  
+    - Servo Motor 
     - Door Lock Mechanism  
 
 ---
