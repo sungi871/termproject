@@ -4,7 +4,7 @@ Group74
  - SEO SIYEON (202335235) : Project: Object Color Classifier with OpenCV (color_detection.py, main.py)
  - Moon JongHan (2023*****) 
  - min sungi (202336083)
- - Lee hyunsoo (202336120) Project: Face Recognition Door Lock with OpenCV and Arduino (doorlock202336120.py, doorlock202336120.ino)
+ - Lee hyunsoo (202336120) Project: Face Recognition Door Lock with OpenCV and Arduino (doorlock/doorlock202336120.py, doorlock/doorlock202336120.ino)
 ## 오픈소스SW 설명
 
 - SEO SIYEON (202335235)
