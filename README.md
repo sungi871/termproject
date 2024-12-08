@@ -123,7 +123,7 @@ The project aims to enhance home security by providing a convenient, keyless ent
 
 It's a scene where you recognize your face with Python
 
-![Result Image] (doorlock202336120/execution screen.png)
+![Result Image](doorlock202336120/execution screen.png)
 
 ## **Resources**  
 
