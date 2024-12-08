@@ -4,7 +4,7 @@ Group74
  - SEO SIYEON (202335235) : Project: Object Color Classifier with OpenCV (color_detection.py, main.py)
  - Moon JongHan (2023*****)
  - min sungi (202336083)
- - Lee hyunsoo (2023*****)
+ - Lee hyunsoo (202336120)
 ## 오픈소스SW 설명
 
 - SEO SIYEON (202335235)
