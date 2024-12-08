@@ -119,6 +119,11 @@ The project aims to enhance home security by providing a convenient, keyless ent
 3. Upload the Arduino code to control the door lock:  
     - Use the Arduino IDE to upload the script to the Arduino board.  
 
+## **Demonstration**
+
+It's a scene where you recognize your face with Python
+
+![Result Image] (doorlock202336120/execution screen.png)
 
 ## **Resources**  
 
