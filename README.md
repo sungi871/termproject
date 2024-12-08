@@ -60,3 +60,73 @@ Here are the resources and references used to create this project:
 
 
 
+## 오픈소스SW 설명
+
+- Lee Hyunsoo(202336120)
+
+# Arduino-Based Smart Door Lock with OpenCV  
+### Secure and control access using a combination of Arduino and OpenCV.
+
+This project combines **OpenCV** and **Arduino** to create a smart door lock system. It uses facial recognition and color-based object detection to securely manage access.  
+
+The project aims to enhance home security by providing a convenient, keyless entry system inspired by cutting-edge computer vision and IoT technologies.  
+
+---
+
+## **Key Points**  
+
+1. **Steps Involved:**  
+    1. Capture live video feed using a camera
+    2. Detect and recognize faces objects using OpenCV.  
+    3. Send control signals to the Arduino for unlocking or locking the door.  
+
+2. **Assumptions:**  
+    1. Registered users' faces or authorized color objects are used for authentication.  
+    2. The system can distinguish between authorized and unauthorized access based on input.  
+
+3. **The process uses a combination of:**  
+    - **Facial Recognition:** OpenCV’s face detection algorithms to verify users.  
+    - **Arduino Control:** Signals to actuate a servo motor or solenoid to lock/unlock the door.  
+
+---
+
+## **Requirements** (tested versions):  
+1. **Software**:  
+    - Python (3.7.3)  
+    - opencv-python (4.1.0)  
+    - numpy (1.61.4)  
+    - imutils (0.5.2)  
+    - Arduino IDE  
+
+2. **Hardware**:  
+    - Arduino Uno/Mega  
+    - Webcam or Raspberry Pi Camera  
+    - Servo Motor or Solenoid  
+    - Door Lock Mechanism  
+
+---
+
+## **Commands to Run the Project:**  
+
+1. Install the required Python modules:  
+    ```bash
+    pip install opencv-python numpy imutils
+    ```  
+
+2. Run the main script to detect and authenticate users:  
+    ```bash
+    python door_lock_main.py
+    ```  
+
+3. Upload the Arduino code to control the door lock:  
+    - Use the Arduino IDE to upload the script to the Arduino board.  
+
+
+## **Resources**  
+
+- **OpenCV Documentation**: [https://docs.opencv.org/](https://docs.opencv.org/)  
+- **Arduino Tutorials**: [https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
+- **Python Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)  
+
+
+
