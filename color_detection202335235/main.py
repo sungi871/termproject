@@ -32,10 +32,10 @@ def main():
 
 
     if not os.path.exists(image_path):
-        print(f"오류: '{image_path}' 파일을 찾을 수 없습니다.")
+        print(f"오류: '{image_path}' 파일을 찾지 못하였습니다.")
         return
 
-    print(f"이미지 파일을 처리합니다: {image_path}")
+    print(f"이미지 파일 작업을 수행합니다: {image_path}")
     process_image(image_path)
 
 if __name__ == "__main__":
