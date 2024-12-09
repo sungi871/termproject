@@ -5,7 +5,7 @@ from color_detection import detect_color
 
 COLOR_RANGES = {
     'red': {'lower': (0, 120, 70), 'upper': (10, 255, 255)},
-    'green': {'lower': (36, 100, 100), 'upper': (86, 255, 255)},
+    'green': {'lower': (36, 120, 100), 'upper': (86, 255, 255)},
     'blue': {'lower': (94, 80, 2), 'upper': (126, 255, 255)}
 }
 
