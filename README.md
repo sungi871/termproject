@@ -133,4 +133,45 @@ It's a scene where you recognize your face with Python
 - **Python Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)  
 
 
+# Document Scanner using OpenCV
+## 202336083 민선기
+This Python script processes an image of a document, detects its boundaries, and performs a perspective transformation to create a scanned-like image.
+
+---
+
+## **Features**
+- Detects document contours from an input image.
+- Corrects the perspective of the document for a flat, rectangular view.
+- Outputs both the original and the scanned (grayscale) version of the document.
+
+---
+
+## **How It Works**
+1. **Grayscale Conversion and Edge Detection**  
+   - The input image is converted to grayscale.  
+   - Gaussian blur is applied to smoothen the image, followed by edge detection using the Canny algorithm.
+
+2. **Contour Detection**  
+   - Contours are detected in the edge-detected image.  
+   - The largest contour with 4 vertices is identified as the document boundary.
+
+3. **Perspective Transformation**  
+   - A perspective transformation is applied to correct the document's orientation, resulting in a flat, rectangular image.
+
+4. **Output**  
+   - The script saves two files:
+     - The original image.
+     - The transformed (scanned) grayscale image.
+
+---
+
+## **Dependencies**
+Ensure the following Python libraries are installed:
+- `numpy`
+- `opencv-python`
+
+Install them using:
+```bash
+pip install numpy opencv-python
+
 
