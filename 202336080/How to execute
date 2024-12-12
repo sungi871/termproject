@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+// 상황 평가 및 리더십 스타일 제안 함수
+void assessSituation(int leaderRelations, int taskStructure, int leaderPower) {
+    // 총 점수 계산
+    int score = leaderRelations + taskStructure + leaderPower;
+    
+    // 상황 호의성 판단
+    if (score >= 7) {
+        printf("상황 평가: 호의적\n");
+        printf("추천되는 리더십 스타일: 관계 지향적 리더\n");
+    } else if (score >= 4) {
+        printf("상황 평가: 중간 정도\n");
+        printf("추천되는 리더십 스타일: 상황에 따라 다름 (관계 지향적 또는 업무 지향적)\n");
+    } else {
+        printf("상황 평가: 비호의적\n");
+        printf("추천되는 리더십 스타일: 업무 지향적 리더\n");
+    }
+}
+
+int main() {
+    int leaderRelations, taskStructure, leaderPower;
+
+    // 사용자 입력 받기
+    printf("리더와 팀원 간의 관계 점수를 입력하세요 (1~5): ");
+    scanf("%d", &leaderRelations);
+    
+    printf("업무 구조 점수를 입력하세요 (1~5): ");
+    scanf("%d", &taskStructure);
+    
+    printf("리더의 권한 점수를 입력하세요 (1~5): ");
+    scanf("%d", &leaderPower);
+    
+    // 결과 평가
+    assessSituation(leaderRelations, taskStructure, leaderPower);
+    
+    return 0;
+}
