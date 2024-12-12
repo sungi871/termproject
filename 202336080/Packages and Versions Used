@@ -1,0 +1,9 @@
+Packages and Versions Used
+Hugging Face (Transformers)
+
+A library that provides natural language processing models, which are useful for prediction and classification tasks.
+Recommended version: Use the most recent version (check at installation for the exact version)
+OpenCV
+
+Computer vision and image processing library. Provides functions such as object detection and image manipulation.
+Recommended version: 4.x or latest stabilized version
